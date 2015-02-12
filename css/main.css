@@ -1,0 +1,39 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; } 
+
+html {
+    box-sizing: border-box;
+    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+} 
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    color: #ff2f7f;
+}
+
+dt {
+    font-family: 'Sanchez', serif;
+    color: #046cc6;
+    line-height: 2em;
+}
+
+dl {
+    font-family: 'Hammersmith One', sans-serif;
+    color: #1492ff;
+}
+
+body {
+    background-color: #b6bebe;
+}
