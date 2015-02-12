@@ -21,19 +21,25 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
     color: #ff2f7f;
+    text-align: center;
+    border-bottom: 2px solid #ff2f7f;
 }
 
 dt {
     font-family: 'Sanchez', serif;
     color: #046cc6;
     line-height: 2em;
+    font-size: 1em;
 }
 
-dl {
-    font-family: 'Hammersmith One', sans-serif;
-    color: #1492ff;
+dd {
+    font-family: 'Sanchez', serif;
+    color: #ff2f7f;
+    line-height: 2em;
 }
+
 
 body {
     background-color: #b6bebe;
+    margin: 2em;
 }
